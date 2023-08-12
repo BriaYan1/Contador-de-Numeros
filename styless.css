@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+:root {
+    --blue-primary: #07396C;
+    --blue-secondary: #3F6AA0;
+    --blue-terciary: #1B77D4;
+    --gray:#222222;
+    --white--primary: #FFFFFF;
+    --white-secondary: #FEFEFF;
+    --black: #000000;
+    --font: 'Roboto', sans-serif;
+}
+
+/******ESTILIZANDO HEADER*******/
+
+.navbar{
+    background-color: var(--white--primary);
+    height: 5rem;
+}
+
+.container-fluid{
+    max-width: 900px;
+    font-size: 2rem;
+    font-family: var(--font);
+}
+
+.logo{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: var(--black);
+}
+
+.dropdown-menu{
+    width: 20rem;
+}
+
+.item-menu{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.5rem;
+    font-family: var(--font);
+    margin: 0.8rem;
+}
+
+.elementos-lista:hover{
+    color: var(--blue-primary);
+    font-size: bold;
+}
