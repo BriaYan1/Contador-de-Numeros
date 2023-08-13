@@ -159,16 +159,16 @@ body{
     
     .titulo__Portada{
         font-size: 3rem;
-        padding-top: 6rem;
-        padding-bottom: 6rem;
+        padding-top: 3rem;
+        padding-bottom: 0rem;
         text-align: center;
     }
     
     .img-contenedor{
-        width: 27rem; 
+        width: 22rem; 
     }
 
     .img__portada{
-        width: 25rem;
+        width: 20rem;
     }
 }
