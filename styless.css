@@ -43,12 +43,16 @@ body{
 }
 
 .logo{
+    padding: 0.5rem;
     width: 4rem;
     height: 3.5rem;
 }
 
 .navbar-collapse{
-    justify-content: flex-end;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
 }
 
 .nav-link{
@@ -60,12 +64,6 @@ body{
     background-color: var(--blue-terciary);
     border-radius: 0.5rem;
     transition: 0.4s;
-}
-
-.dropdown-menu{
-    width: 13rem;
-    height: auto;
-    gap: 1rem;
 }
 
 .item-menu{
@@ -119,7 +117,6 @@ body{
     border-radius: 100%;
     background-color: var(--white--primary);
     width: 52rem;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     padding: 1rem;
 }
 
@@ -150,16 +147,13 @@ body{
     }    
 
     .titulo__img-portada{
-        display: flex;
-        align-items: center;
         flex-direction: column;
         margin: 5rem;
-        width: 100%;
     }
     
     .titulo__Portada{
         font-size: 3rem;
-        padding-top: 3rem;
+        padding-top: 18rem;
         padding-bottom: 0rem;
         text-align: center;
     }
