@@ -26,12 +26,12 @@ body{
 /******ESTILIZANDO HEADER*******/
 
 .navbar{
-    height: 5rem;
+    height: 6rem;
     background-color: var(--blue-primary) !important;
 }
 
 .navbar-toggler-icon{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .navbar-dark .navbar-toggler-icon{
@@ -44,8 +44,8 @@ body{
 
 .logo{
     padding: 0.5rem;
-    width: 4rem;
-    height: 3.5rem;
+    width: 6rem;
+    height: 4.5rem;
 }
 
 .navbar-collapse{
@@ -116,13 +116,20 @@ body{
     background-color: var(--white--primary);
     width: 52rem;
     padding: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .img__portada{
     border-radius: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media screen and (min-width: 768px) and (max-width: 1030px){
+    .logo{
+        padding-left: 1rem;
+        width: 8rem;
+        height: 6rem;
+    }    
+
     .navbar-collapse{
         margin: 1rem;
         text-align: center;
@@ -138,8 +145,16 @@ body{
     }
     
     .titulo__Portada{
-        padding-bottom: 8rem;
-        padding-top: 8rem;
+        padding-bottom: 20rem;
+        padding-top: 20rem;
+    }
+
+    .img-contenedor{
+        width: 34rem; 
+    }
+
+    .img__portada{
+        width: 32rem;
     }
 }
 
@@ -148,25 +163,25 @@ body{
     .navbar-collapse{
         margin: 1rem;
         text-align: center;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.6);
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
         border-radius: 0.5rem;
     }
 
     .logo{
         padding-left: 1rem;
-        width: 4rem;
-        height: 3rem;
+        width: 6rem;
+        height: 5rem;
     }    
 
     .titulo__img-portada{
         flex-direction: column;
-        margin: 5rem;
+        margin-top: 5rem;
     }
     
     .titulo__Portada{
         font-size: 3rem;
         padding-top: 18rem;
-        padding-bottom: 0rem;
+        padding-bottom: 6rem;
         text-align: center;
     }
     
