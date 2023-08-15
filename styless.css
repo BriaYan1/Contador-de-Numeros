@@ -139,14 +139,13 @@ body{
 
     .titulo__img-portada{
         flex-direction: column;
-        margin: 13rem;
-        width: 100%;
-        gap: 8rem;
+        gap: 10rem;
     }
     
     .titulo__Portada{
-        padding-bottom: 20rem;
-        padding-top: 20rem;
+        font-size: 6rem;
+        text-align: center;
+        padding-bottom: 0;
     }
 
     .img-contenedor{
@@ -175,14 +174,13 @@ body{
 
     .titulo__img-portada{
         flex-direction: column;
-        margin-top: 3.8rem;
+        gap: 10rem;
     }
     
     .titulo__Portada{
         font-size: 3rem;
-        padding-top: 24rem;
-        padding-bottom: 0rem;
         text-align: center;
+        padding-bottom: 0;
     }
     
     .img-contenedor{
