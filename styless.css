@@ -10,7 +10,7 @@ html {
 }
 
 body{
-    font-size: 'Roboto', sans-serif;;
+    font-size: 'Roboto', sans-serif;
 }
 
 :root {
@@ -45,7 +45,7 @@ body{
 .logo{
     padding: 0.5rem;
     width: 6rem;
-    height: 4.5rem;
+    height: 5rem;
 }
 
 .navbar-collapse{
@@ -101,7 +101,7 @@ body{
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
-    padding-bottom: 12rem;
+    
 }
 
 .img-contenedor{
