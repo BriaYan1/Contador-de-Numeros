@@ -174,7 +174,7 @@ body{
         align-items: center;
         height: 30rem !important;
         padding: 5rem !important;
-        transition: 0.3s ease-out;
+
     }
     .navbar-nav{
         gap: 1rem;
