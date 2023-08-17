@@ -50,7 +50,6 @@ body{
 
 .navbar-collapse{
     margin: 1rem;
-    justify-content: right;
 }
 
 .nav-link{
@@ -130,10 +129,9 @@ body{
     .navbar-collapse{
         margin: 0;
         text-align: center;
-        height: 30rem;
+        padding: 5rem;
         background-color: var(--blue-secondary);
         border-radius: 1rem;
-        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -172,9 +170,9 @@ body{
         height: 30rem;
         background-color: var(--blue-secondary);
         border-radius: 1rem;
-        display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 5rem;
     }
     .navbar-nav{
         gap: 1rem;
