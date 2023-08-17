@@ -168,15 +168,22 @@ body {
     border-radius: 1rem;
     flex-direction: column;
     justify-content: center;
+    max-height: 30rem;
   }
   .navbar-nav {
     gap: 1rem;
     width: 90%;
   }
-  .aux {
-    height: 30rem;
-    padding: 5rem;
+  .desplegable{
+        height: 30rem;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: height 0.3s ease-out
   }
+
   .logo {
     padding-left: 1rem;
     width: 6rem;
