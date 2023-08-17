@@ -173,8 +173,9 @@ body {
     gap: 1rem;
     width: 90%;
   }
-  .collapse {
+  .aux {
     height: 30rem;
+    padding: 5rem;
   }
   .logo {
     padding-left: 1rem;
