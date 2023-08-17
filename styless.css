@@ -129,7 +129,6 @@ body{
     .navbar-collapse{
         margin: 0;
         text-align: center;
-        padding: 1rem;
         background-color: var(--blue-secondary);
         border-radius: 1rem;
         flex-direction: column;
@@ -171,7 +170,6 @@ body{
         border-radius: 1rem;
         flex-direction: column;
         justify-content: center;
-        padding: 1rem;
     }
     .navbar-nav{
         gap: 1rem;
