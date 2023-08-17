@@ -175,13 +175,13 @@ body {
     width: 90%;
   }
   .desplegable{
-        height: 30rem;
-        display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-      transition: height 0.3s ease-out
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.2s ease-out
   }
 
   .logo {
