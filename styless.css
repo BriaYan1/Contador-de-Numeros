@@ -167,7 +167,6 @@ body{
     .navbar-collapse{
         margin: 0;
         text-align: center;
-        height: 30rem;
         background-color: var(--blue-secondary);
         border-radius: 1rem;
         flex-direction: column;
