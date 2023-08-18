@@ -306,7 +306,6 @@ body{
 /*********SECCION SERVICIOS************/
 
 .section-servicios{
-    margin-top: 18rem;
     background-color: var(--white-secondary);
 }
 
@@ -357,6 +356,7 @@ body{
     .parrafo-servicios-descripcion{
         margin: 1rem;
         text-align: justify;
+        padding-top: 4rem;
     }
 
     .parrafo-servicios{
