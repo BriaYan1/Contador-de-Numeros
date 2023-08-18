@@ -362,4 +362,10 @@ body{
     .parrafo-servicios{
         margin: 1rem;
     }
+
+    .btn{
+        width: 15rem;
+        height: 5rem;
+        font-size: 1.5rem !important;
+    }
 }
