@@ -322,7 +322,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
     margin-bottom: 5rem;
 }
 
@@ -361,6 +360,10 @@ body{
 }
 
 @media screen and (max-width: 768px){
+    .contenedor-servicios{
+        margin-bottom: 0rem;
+    }
+
     .titulo-servicios{
         margin: 2rem;
         padding-top: 1rem;
