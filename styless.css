@@ -223,6 +223,10 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
+.parrafo-servicios-descripcion{
+    text-align: center;
+}
+
 .row{
     justify-content: space-evenly;
     padding-top: 7rem;
