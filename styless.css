@@ -234,11 +234,14 @@ body{
 
 .col-nosotros{
     width: 35rem !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
 }
 
 .img__nosotros{
     border-radius: 100%;
     width: 35rem;
+    height: 35rem;
 }
 
 .contenedor-texto-nosotros{
@@ -287,6 +290,7 @@ body{
     .img__nosotros{
         border-radius: 100%;
         width: 22rem;
+        height: 22rem;
     }
 
     .row{
