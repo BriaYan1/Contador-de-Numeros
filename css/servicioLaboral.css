@@ -27,7 +27,7 @@ body{
 
 .container-fluid {
     position: relative;
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +48,16 @@ body{
     background-size: cover;
     background-attachment: fixed;
     filter: brightness(40%); 
+}
+
+@media screen and (max-width: 768px )
+{
+    .container-fluid {
+        min-height: 70vh;
+    }
+
+    .container-fluid::before {
+        background-image: url(/assets/servicios/laboral/servicio-laboral-mobile.jpg);
+        background-position: center;
+    }
 }
