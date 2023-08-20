@@ -25,31 +25,6 @@ body{
     --black: #000000;
 }
 
-.container-fluid {
-    position: relative;
-    min-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    gap: 5rem;
-}
-
-.container-fluid::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(/assets/servicios/contable/servicio-contable.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: brightness(40%); 
-}
-
 .titulo-cabecera-servicios {
     font-size: 5rem;
     color: var(--white--primary);
@@ -95,6 +70,13 @@ body{
 .asterisco{
     color: var(--blue-primary);
     font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .titulo-cabecera-servicios {
+        font-size: 5rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px)
