@@ -349,6 +349,8 @@ body{
 
 .parrafo-servicios{ 
     font-size: 2rem;
+    margin: 1.5rem;
+    text-align: center;
 }
 
 .btn{
@@ -357,6 +359,12 @@ body{
     height: 3rem;
     font-weight: bold !important;
     font-size: 1.2rem !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .parrafo-servicios{
+        max-width: 55rem;
+    }
 }
 
 @media screen and (max-width: 768px){
