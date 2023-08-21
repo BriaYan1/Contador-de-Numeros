@@ -449,6 +449,7 @@ body{
 .card-img-top{
     border-radius: 100% ;
     width: auto;
+    transform: rotate(-20deg);
 }
 
 @media screen and (max-width: 768px)
