@@ -453,6 +453,10 @@ body{
 
 @media screen and (max-width: 768px)
 {
+    .section-servicios{
+        padding-bottom: 5rem;
+    }
+
     .contador-titulo{
         padding: 4rem 0 4rem  0;
     }
