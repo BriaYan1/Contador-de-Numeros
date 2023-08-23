@@ -381,6 +381,12 @@ body{
     font-size: 1.2rem !important;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+    .parrafo-servicios{ 
+        font-size: 2rem;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 990px){
     .parrafo-servicios{
         max-width: 55rem;
