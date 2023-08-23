@@ -33,14 +33,6 @@ body{
     position: relative; 
 }
 
-.parrafo-cabecera-servicios {
-    color: var(--white--primary);
-    font-size: 2.5rem;
-    max-width: 80%;
-    text-align: center;
-    position: relative; 
-}
-
 .container{
     background-color: var(--white-secondary);
 }
@@ -88,15 +80,13 @@ body{
     .titulo-cabecera-servicios {
         font-size: 3rem;
         text-align: center;
-    }
-    
-    .parrafo-cabecera-servicios {
-        font-size: 1.8rem;
+        margin: 2rem;
     }
     
     .titulo-servicio {
-        font-size: 3rem;
-        margin: 3rem;
+        font-size: 2rem;
+        margin: 2rem;
+        text-align: center;
     }
     
     .parrafo-servicios{

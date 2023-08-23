@@ -210,9 +210,13 @@ body{
 
 /*********************SECCION NOSOTROS **********************/
 
-.contenedor-nosotros{
-    margin-bottom: 8rem;
+.section-nosotros{
     background-color: var(--white-secondary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .titulo-principal-nosotros{
@@ -229,7 +233,7 @@ body{
 
 .row{
     justify-content: space-evenly;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .col-nosotros{
@@ -294,20 +298,26 @@ body{
     }
 
     .row{
-        gap: 8rem;
+        padding-top: 2rem;
     }
 
     .titulo-principal-nosotros{
-        margin: 2rem;
-        font-size: 4.5rem;
+        margin: 4rem 0 0 0;
+        font-size: 3rem;
     }
 
     .titulo-nosotros{
         margin: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .contenedor-texto-nosotros{
+        gap: 0rem;
+        font-size: 1.8rem;
     }
 
     .parrafo-nosotros{
-        margin: 2rem;
+        margin: 0 2rem 0 2rem;
     }
 }
 
@@ -315,6 +325,11 @@ body{
 
 .section-servicios{
     background-color: var(--white-secondary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contenedor-servicios{
@@ -322,18 +337,25 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5rem;
+}
+
+.titulo-servi{
+    margin: 0rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
 }
 
 .parrafo-servicios-descripcion{
     font-size: 2rem;
     justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 .img-contenedor-servicios{
     border: 3px solid;
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -342,7 +364,7 @@ body{
 }
 
 .titulo-servicios{
-    margin: 2rem;
+    margin: 1.5rem;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -364,11 +386,24 @@ body{
     .parrafo-servicios{
         max-width: 55rem;
     }
+
+    .contenedor-servicios{
+        margin-bottom: 5rem;
+    }
+
 }
 
 @media screen and (max-width: 768px){
-    .contenedor-servicios{
+    .section-servicios{
         margin-bottom: 0rem;
+    }
+
+    .contenedor-servicios{
+        margin-bottom: 5rem;
+    }
+
+    .contenedor-servicios:last-child{
+        margin-bottom: 2rem;
     }
 
     .titulo-servicios{
@@ -380,8 +415,8 @@ body{
 
     .parrafo-servicios-descripcion{
         margin: 1rem;
-        text-align: justify;
-        padding-top: 4rem;
+        text-align: center;
+        padding-top: 0rem;
     }
 
     .parrafo-servicios{
@@ -397,15 +432,18 @@ body{
 
 /****SECION EQUIPO***/
 
-.contenedor-equipo{
+.section-equipo{
     background-color: var(--white--primary);
-    padding-bottom: 5rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contador-titulo{
     color: var(--black);
-    margin: 0;
-    padding: 8rem;
+    margin: 4rem;
 }
 
 .container{
@@ -458,12 +496,12 @@ body{
 
 @media screen and (max-width: 768px)
 {
-    .section-servicios{
-        padding-bottom: 5rem;
+    .section-equipo{
+        margin-bottom: 4rem;
     }
 
     .contador-titulo{
-        padding: 4rem 0 4rem  0;
+        margin: 7rem 0 2rem 0;
     }
 
     .card-body{
