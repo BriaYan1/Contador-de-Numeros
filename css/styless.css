@@ -656,8 +656,11 @@ span{
 
 @media screen and (min-width: 768px) and (max-width: 990px){
     .footer{
-        height: auto;
+        min-height: 100vh;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
     
     .contenedor-contacto{
@@ -672,8 +675,11 @@ span{
 
 @media screen and (max-width: 767px){
     .footer{
-        height: 60rem;
+        min-height: 100vh;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .contenedor-logo{
