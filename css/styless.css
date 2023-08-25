@@ -727,16 +727,29 @@ span{
     top: calc(50% - 50px);
     margin: 2rem;
     position: fixed;
+    background-color: #00B93A;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-.img-wpp{
-    width: 100%;
+.fa-whatsapp{
+    font-size: 5rem;
+    height: 8rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 767px)
 {
     .link-wpp{
         width: 6rem ;
-        margin: 2rem;
+        margin: 1rem;
+    }
+    
+    .fa-whatsapp{
+        font-size: 4rem;
+        height: 6rem;
     }
 }
