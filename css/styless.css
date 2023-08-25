@@ -146,7 +146,6 @@ a{
         width: 100%;
     }
 
-
     .titulo__img-portada{
         flex-direction: column;
         gap: 10rem;
@@ -455,7 +454,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 .contador-titulo{
@@ -514,7 +513,7 @@ a{
 
 @media screen and (min-width: 768px) and (max-width: 990px){
     .section-equipo{
-        margin-bottom: 0;
+        margin-bottom: 10rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -547,7 +546,7 @@ a{
 @media screen and (max-width: 767px)
 {
     .section-equipo{
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
 
     .contador-titulo{
@@ -567,6 +566,8 @@ a{
 
 .footer{
     background-color: var(--blue-primary);
+    height: 39rem;
+    padding: 5rem;
 }
 
 .contenedor-logo-footer{
@@ -582,6 +583,7 @@ a{
 
 .contenedor-contacto{
     width: 50rem;
+    height: 18rem;
 }
 
 .titulo-footer{
@@ -598,18 +600,23 @@ a{
     flex-direction: column;
 }
 
-.lista-footer-descripcion{
+.lista-footer-descripcion, .enlace{
     font-size: 1.5rem;
     color: var(--white--primary);
     align-content: center;
     text-decoration: none;
+    
+}
+
+.enlace:hover{
+    color: var(--white--primary);
 }
 
 .contenedor-logo{
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
-    margin: 0.8rem;
+    max-width: 25rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 span{
@@ -624,6 +631,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .linea {
@@ -637,6 +645,7 @@ span{
     color: var(--white--primary);
     flex-direction: column;
     align-items: center;
+    padding: 4rem;
 }
 
 .parrafo-copy{
@@ -645,7 +654,33 @@ span{
     text-align: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .footer{
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .contenedor-contacto{
+        height: auto;
+    }
+    
+    .contenedor-logo{
+        max-width: 25rem;
+        margin: 0rem;
+    }
+}    
+
 @media screen and (max-width: 767px){
+    .footer{
+        height: auto;
+        padding: 1rem;
+    }
+    
+    .contenedor-logo{
+        max-width: 25rem;
+        margin: 0rem;
+    }
+
     .titulo-footer{
         text-align: center ;
     }
@@ -662,11 +697,11 @@ span{
         margin: 1rem 1rem 2rem 2.2rem;
     }
 
-    .linea {
-        width: 90%;
+    .contenedor-linea{
+        margin-top: 5rem;
     }
 
-    .parrafo-copy{
-        margin: 1rem;
+    .linea {
+        width: 90%;
     }
 }
