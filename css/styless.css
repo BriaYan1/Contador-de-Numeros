@@ -13,6 +13,7 @@ html {
 
 body{
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
 a{
@@ -29,7 +30,7 @@ a{
     --black: #000000;
 }
 
-/******ESTILIZANDO HEADER*******/
+/*********************HEADER**********************/
 
 .navbar{
     height: 6rem;
@@ -75,7 +76,7 @@ a{
     font-size: bold;
 }
 
-/*********************SECCION INICIO ( PORTADA ) **********************/
+/********************* SECCION INICIO ( PORTADA ) **********************/
 
 .portada{
     background-image: url(/assets/portada/Recurso\ 1.png);
@@ -211,7 +212,7 @@ a{
     }
 }
 
-/*********************SECCION NOSOTROS **********************/
+/********************* SECCION NOSOTROS **********************/
 
 .section-nosotros{
     background-color: var(--white-secondary);
@@ -331,7 +332,7 @@ a{
     }
 }
 
-/*********SECCION SERVICIOS************/
+/********************* SECCION SERVICIOS **********************/
 
 .section-servicios{
     background-color: var(--white-secondary);
@@ -445,7 +446,7 @@ a{
     }
 }
 
-/****SECION EQUIPO***/
+/********************* SECCION EQUIPO **********************/
 
 .section-equipo{
     background-color: var(--white--primary);
@@ -561,7 +562,7 @@ a{
     }
 }
 
-/*********************SECCION FOOTER **********************/
+/********************* SECCION FOOTER **********************/
 
 .footer{
     background-color: var(--blue-primary);
@@ -714,5 +715,28 @@ span{
 
     .contenedor-copy{
         padding: 2rem;
+    }
+}
+
+/********************* BOTON WHATSAPP**********************/
+
+.link-wpp{
+    width: 8rem ;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 50px);
+    margin: 2rem;
+    position: fixed;
+}
+
+.img-wpp{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px)
+{
+    .link-wpp{
+        width: 6rem ;
+        margin: 2rem;
     }
 }
