@@ -672,7 +672,7 @@ span{
 
 @media screen and (max-width: 767px){
     .footer{
-        height: auto;
+        height: 60rem;
         padding: 1rem;
     }
     
@@ -698,10 +698,14 @@ span{
     }
 
     .contenedor-linea{
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .linea {
         width: 90%;
+    }
+
+    .contenedor-copy{
+        padding: 2rem;
     }
 }
