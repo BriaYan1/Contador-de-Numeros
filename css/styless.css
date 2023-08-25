@@ -471,7 +471,7 @@ a{
 .card{
     background-color: var(--blue-primary) !important;
     max-width: 50rem;
-    min-height: 50rem;
+    min-height: 40rem;
     border-radius: 1rem !important ;
     justify-content: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
@@ -498,11 +498,10 @@ a{
 .img-contenedor-equipo{
     border-radius: 100%;
     background-color: var(--white--primary);
-    width: 20rem;
+    width: 15rem;
     padding: 2rem;
     margin: 0 auto;
     margin-top: 3rem;
-    margin-bottom: 3rem;
 }
 
 .card-img-top{
