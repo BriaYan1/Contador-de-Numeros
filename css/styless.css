@@ -752,13 +752,6 @@ span{
     position: fixed;
     top: 30vh !important;
     left: 85vh !important;
-    z-index: 1060;
-    display: none;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    outline: 0;
 }
 
 .modal-backdrop {
@@ -769,6 +762,7 @@ span{
 
 .modal-open {
     overflow-y: scroll !important;
+    padding: 0 !important;
 }
 
 .modal-content{
@@ -861,6 +855,13 @@ span{
 
 .redireccionar{
     text-decoration: none;
+}
+
+@media (width < 1400px)
+{
+    .modal{
+        left: 68vh !important;
+    }
 }
 
 @media (width < 1300px)
