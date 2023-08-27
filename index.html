@@ -181,7 +181,28 @@
       </footer>
 
       <!--BOTON WHATSAPP-->
-        <a class="link-wpp" href="https://api.whatsapp.com/send?phone=5804121213733&text=Hola, quiero más información sobre los servicios profesionales" data-aos="fade-up" data-aos-duration="1500"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+        <a class="link-wpp" href="#" data-aos="fade-up" data-aos-duration="1500" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+        
+        <!-- Modal -->
+          
+        <div class="modal" id="exampleModal" aria-hidden="true">
+          <div class="modal-dialog ">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> <span class="titulo-modal">WhatsApp</span></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark cerrar"></i></button>
+              </div>
+              <div class="modal-body">
+                <div class="input-dialogo">
+                  <p class="texto"> Hola ¿Cómo podemos ayudarte?</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a class="redireccionar" href="https://api.whatsapp.com/send?phone=5804121213733&text=Hola, quiero más información sobre los servicios profesionales"><button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Abrir Chat <img src="/assets/modal/send-plane-fill.svg" class="abrir-chat"></button></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </main>
 

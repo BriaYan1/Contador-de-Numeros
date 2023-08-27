@@ -746,6 +746,114 @@ span{
     background-color: #3EBF50;
 }
 
+/*Modal*/
+
+.modal{
+    top: 35% !important;
+}
+
+.modal-backdrop {
+    backdrop-filter: none !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+}
+
+.modal-open {
+    overflow-y: scroll !important;
+}
+
+.modal-content{
+    border-radius: 2rem !important;
+    max-width: 40rem;
+    max-height: 30rem;
+} 
+
+.modal-header{
+    background-color: var(--blue-primary);
+    border-radius: 2rem 2rem 0 0 !important;
+    min-height: 5rem;
+}
+
+.modal-title{
+    width: 100%;
+    display: flex;
+    padding-left: 1rem;
+}
+
+.titulo-modal{
+    color: var(--white--primary);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close{
+    color: var(--white--primary) !important;
+    opacity: 1 !important;
+    font-size: 3rem;
+    background: var(--blue-secondary) !important;
+    border-radius: 50% !important;
+    margin-right: 0.5rem !important;
+    width: 5rem !important;
+    height: 2rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 0.5rem !important;
+    transition: 0.4s ease;
+}
+
+.btn-close:hover{
+    background-color: var(--blue-terciary) !important;
+}
+
+.modal-body{
+    display: flex;
+    min-height: 4rem !important;
+    margin: 1rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.input-dialogo{
+    border: 1px solid;
+    width: 100%;
+    min-height: 3rem !important;
+    border-radius: 2rem;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.texto{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn-secondary{
+    background-color: var(--blue-primary) !important;
+    min-height: 5.5rem;
+    border-radius: 5rem !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    min-width: 13rem;
+    font-size: 1.3rem !important;
+    transition: 0.4s ease;
+}
+
+.btn-secondary:hover{
+    background-color: var(--blue-secondary) !important;
+}
+
+.abrir-chat{
+    transform: rotate(48deg);
+}
+
+.redireccionar{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 767px)
 {
     .link-wpp{
