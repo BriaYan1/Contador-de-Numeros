@@ -751,7 +751,7 @@ span{
 .modal{
     position: fixed;
     top: 30vh !important;
-    left: 85vh !important;
+    left: calc(40%) !important;
 }
 
 .modal-backdrop {
@@ -857,10 +857,10 @@ span{
     text-decoration: none;
 }
 
-@media (width < 1400px)
+/*@media (width < 1400px)
 {
     .modal{
-        left: 68vh !important;
+        left: 72vh !important;
     }
 }
 
@@ -869,7 +869,7 @@ span{
     .modal{
         left: 60vh !important;
     }
-}
+}*/
 
 @media (width < 990px){
     .modal{
