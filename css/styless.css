@@ -277,7 +277,7 @@ a{
     }
 }
 
-@media (width < 990px){
+@media screen and (min-width: 768px) and (max-width: 990px){
     .row{
         gap: 8rem;
     }
@@ -398,7 +398,7 @@ a{
     }
 }
 
-@media (width < 990px){
+@media screen and (min-width: 768px) and (max-width: 990px){
     .parrafo-servicios{
         max-width: 55rem;
     }
@@ -511,7 +511,7 @@ a{
     transform: rotate(-20deg);
 }
 
-@media (width < 990px){
+@media screen and (min-width: 768px) and (max-width: 990px){
     .section-equipo{
         margin-bottom: 10rem;
         display: flex;
@@ -655,7 +655,7 @@ span{
     text-align: center;
 }
 
-@media (width < 990px){
+@media screen and (min-width: 768px) and (max-width: 990px){
     .footer{
         min-height: 100vh;
         padding: 1rem;
