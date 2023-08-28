@@ -857,19 +857,13 @@ span{
     text-decoration: none;
 }
 
-/*@media (width < 1400px)
+@media (width < 1400px)
 {
     .modal{
-        left: 72vh !important;
+        left: calc(38%) !important;
     }
 }
 
-@media (width < 1300px)
-{
-    .modal{
-        left: 60vh !important;
-    }
-}*/
 
 @media (width < 990px){
     .modal{
