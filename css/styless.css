@@ -242,14 +242,18 @@ a{
 
 .col-nosotros{
     width: 35rem !important;
+    height: 35rem !important;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img__nosotros{
     border-radius: 100%;
-    width: 35rem;
-    height: 35rem;
+    width: 34rem;
+    height: 34rem;
 }
 
 .contenedor-texto-nosotros{
@@ -257,7 +261,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
 }
 
 .titulo-nosotros{
@@ -300,6 +304,7 @@ a{
 @media (width < 767px){
     .col-nosotros{
         width: 17rem !important;
+        height: auto !important;
     }
 
     .img__nosotros{
@@ -905,5 +910,19 @@ span{
     .fa-whatsapp{
         font-size: 4rem;
         height: 6rem;
+    }
+}
+
+/* Estilos generales para los iPhone version mobile */
+
+@media (width < 767px) and (device-width: 375px), (width < 767px) and (device-width: 414px) {
+    .portada{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo__img-portada{
+        margin: 10rem;
     }
 }
