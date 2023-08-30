@@ -743,6 +743,14 @@ span{
     text-decoration: none;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     transition: 0.4s ease-in;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.link-wpp.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .fa-whatsapp{

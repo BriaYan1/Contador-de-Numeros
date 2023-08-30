@@ -10,3 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+  // JavaScript para que el boton de whatsapp cargue a los 5 segundos 
+
+  setTimeout(function() {
+    let link = document.querySelector(".link-wpp");
+    link.style.display = "inline-block";
+
+    setTimeout(function() {
+        link.classList.add("visible");
+    }, 100); // Ajusta el tiempo de espera si es necesario
+}, 5000);
