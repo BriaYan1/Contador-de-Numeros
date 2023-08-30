@@ -423,14 +423,15 @@ a{
     }
 
     .titulo-servicios{
-        margin: 2rem;
+        margin: 0rem;
         padding-top: 1rem;
+        padding-bottom: 1rem;
         font-size: 2.5rem;
         font-weight: bold;
     }
 
     .parrafo-servicios-descripcion{
-        margin: 1rem;
+        margin: 0 0 1.5rem 0;
         text-align: center;
         padding-top: 0rem;
     }
