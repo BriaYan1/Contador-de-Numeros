@@ -35,6 +35,7 @@ body{
 
 .container{
     background-color: var(--white-secondary);
+    padding-bottom: 3rem;
 }
 
 .titulo-servicio {
@@ -43,14 +44,14 @@ body{
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    margin: 5rem;
+    margin: 3rem;
 }
 
 .parrafo-servicios{
     color: var(--black);
     font-size: 1.8rem;
     text-align: justify;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .servicios-lista{
