@@ -84,6 +84,9 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portada-contenedor{
@@ -190,6 +193,10 @@ a{
         width: 90%;
     }
 
+    .portada .portada-contenedor{
+        min-height: 100vh;
+    }
+
     .logo{
         padding-left: 1rem;
         width: 6rem;
@@ -198,7 +205,9 @@ a{
 
     .titulo__img-portada{
         flex-direction: column;
-        gap: 10rem;
+        height: 100vh;
+        margin: 5rem;
+        gap: 0;
     }
     
     .titulo__Portada{
@@ -306,6 +315,10 @@ a{
 }
 
 @media (width < 767px){
+    .section-nosotros{
+        padding-bottom: 5rem;
+    }
+
     .col-nosotros{
         width: 17rem !important;
         height: auto !important;
@@ -322,12 +335,15 @@ a{
     }
 
     .titulo-principal-nosotros{
-        margin: 4rem 0 0 0;
         font-size: 3rem;
     }
 
+    .titulo-servi{
+        margin: 2rem;
+    }
+
     .titulo-nosotros{
-        margin: 1.5rem;
+        margin: 2rem;
         font-size: 2.2rem;
     }
 
@@ -360,9 +376,7 @@ a{
 }
 
 .titulo-servi{
-    margin: 0rem;
-    margin-top: 8rem;
-    margin-bottom: 1rem;
+    margin: 2rem;
 }
 
 .parrafo-servicios-descripcion{
@@ -479,6 +493,11 @@ a{
     align-items: center;
 }
 
+.contenedor-cards{
+    display: flex;
+    gap: 8rem;
+}
+
 .card{
     background-color: var(--blue-primary) !important;
     max-width: 50rem;
@@ -530,6 +549,11 @@ a{
         height: 100% !important;
     }
 
+    .contenedor-cards{
+        flex-direction: column;
+        gap: 8rem;
+    }
+
     .contador-titulo{
         margin: 7rem 0 7rem 0;
     }
@@ -557,6 +581,11 @@ a{
 {
     .section-equipo{
         margin-bottom: 10rem;
+    }
+
+    .contenedor-cards{
+        flex-direction: column;
+        gap: 2rem;
     }
 
     .img-contenedor-equipo{
