@@ -84,9 +84,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .portada-contenedor{
@@ -193,10 +190,6 @@ a{
         width: 90%;
     }
 
-    .portada .portada-contenedor{
-        min-height: 100vh;
-    }
-
     .logo{
         padding-left: 1rem;
         width: 6rem;
@@ -205,9 +198,6 @@ a{
 
     .titulo__img-portada{
         flex-direction: column;
-        height: 100vh;
-        margin: 5rem;
-        gap: 0;
     }
     
     .titulo__Portada{
@@ -331,13 +321,8 @@ a{
     }
 
     .titulo-principal-nosotros{
+        margin: 4rem 0 0 0;
         font-size: 3rem;
-    }
-
-    .titulo-servi{
-        margin: 2rem;
-        margin-top: 0;
-        margin-bottom: 0;
     }
 
     .titulo-nosotros{
