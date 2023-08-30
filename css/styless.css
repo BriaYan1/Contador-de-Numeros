@@ -266,7 +266,7 @@ a{
 }
 
 .parrafo-nosotros{
-    text-align: justify;
+    text-align: center;
     font-size: 2rem ;
 }
 
@@ -299,17 +299,17 @@ a{
 
 @media (width < 767px){
     .col-nosotros{
-        width: 22rem !important;
+        width: 17rem !important;
     }
 
     .img__nosotros{
         border-radius: 100%;
-        width: 22rem;
-        height: 22rem;
+        width: 17rem;
+        height: 17rem;
     }
 
     .row{
-        padding-top: 2rem;
+        padding-top: 0rem;
     }
 
     .titulo-principal-nosotros{
@@ -318,17 +318,17 @@ a{
     }
 
     .titulo-nosotros{
-        margin: 2rem;
+        margin: 1.5rem;
         font-size: 2.2rem;
     }
 
     .contenedor-texto-nosotros{
         gap: 0rem;
-        font-size: 1.8rem;
     }
 
     .parrafo-nosotros{
         margin: 0 2rem 0 2rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -549,8 +549,17 @@ a{
         margin-bottom: 10rem;
     }
 
+    .img-contenedor-equipo{
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
     .contador-titulo{
-        margin: 7rem 0 2rem 0;
+        margin: 6rem 0 1rem 0;
+    }
+
+    .contador-card{
+        margin-bottom: 1.5rem;
     }
 
     .card-body{
@@ -559,6 +568,7 @@ a{
 
     .card{
         max-width: 30rem;
+        min-height: 30rem;
     }
 }
 
