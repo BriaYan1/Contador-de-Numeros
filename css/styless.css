@@ -315,10 +315,6 @@ a{
 }
 
 @media (width < 767px){
-    .section-nosotros{
-        padding-bottom: 5rem;
-    }
-
     .col-nosotros{
         width: 17rem !important;
         height: auto !important;
@@ -340,10 +336,12 @@ a{
 
     .titulo-servi{
         margin: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .titulo-nosotros{
-        margin: 2rem;
+        margin: 1.5rem;
         font-size: 2.2rem;
     }
 
@@ -376,7 +374,9 @@ a{
 }
 
 .titulo-servi{
-    margin: 2rem;
+    margin: 0rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
 }
 
 .parrafo-servicios-descripcion{
