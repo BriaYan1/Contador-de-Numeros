@@ -83,7 +83,6 @@ a{
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .portada-contenedor{
@@ -91,6 +90,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.portada .portada-contenedor{
+    min-height: 100vh;
 }
 
 .titulo__img-portada{
@@ -169,6 +172,10 @@ a{
 }
 
 @media (width < 767px){
+    .portada .portada-contenedor{
+        min-height: 100vh;
+    }
+
     .navbar{
         height: 6.1rem;
     }
@@ -224,10 +231,10 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 5rem;
 }
 
 .titulo-principal-nosotros{
-    margin: 5rem;
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
@@ -240,7 +247,7 @@ a{
 
 .row{
     justify-content: space-evenly;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .col-nosotros{
@@ -277,13 +284,6 @@ a{
     font-size: 2rem ;
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1600px){
-    .section-nosotros{
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 990px){
     .row{
         gap: 8rem;
@@ -305,6 +305,11 @@ a{
 }
 
 @media (width < 767px){
+    .section-nosotros{
+        height: 100%;
+        gap: 0;
+    }
+
     .col-nosotros{
         width: 17rem !important;
         height: auto !important;
@@ -321,8 +326,13 @@ a{
     }
 
     .titulo-principal-nosotros{
-        margin: 4rem 0 0 0;
+        margin: 8rem 0 2rem 0;
         font-size: 3rem;
+    }
+
+    .titulo-noso{
+        margin-top: 8rem;
+        margin-bottom: 3rem;
     }
 
     .titulo-nosotros{
@@ -344,11 +354,11 @@ a{
 
 .section-servicios{
     background-color: var(--white-secondary);
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .contenedor-servicios{
@@ -358,17 +368,18 @@ a{
     flex-direction: column;
 }
 
-.titulo-servi{
-    margin: 0rem;
-    margin-top: 8rem;
-    margin-bottom: 1rem;
+.titulo-principal-servicios{
+    margin: 5rem 0rem 1rem 0rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .parrafo-servicios-descripcion{
     font-size: 2rem;
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .img-contenedor-servicios{
@@ -407,6 +418,14 @@ a{
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px){
+    .titulo-principal-servicios{
+        font-size: 7rem;
+    }
+
+    .parrafo-servicios-descripcion{
+        margin: 2rem;
+    }
+
     .parrafo-servicios{
         max-width: 55rem;
     }
@@ -430,16 +449,21 @@ a{
         margin-bottom: 2rem;
     }
 
+    .titulo-principal-servicios{
+        font-size: 3rem;
+        margin: 7rem 0rem 1rem 0rem;
+    }
+
     .titulo-servicios{
         margin: 0rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: bold;
     }
 
     .parrafo-servicios-descripcion{
-        margin: 0 0 1.5rem 0;
+        margin: 1rem 0 2rem 0;
         text-align: center;
         padding-top: 0rem;
     }
@@ -459,12 +483,12 @@ a{
 
 .section-equipo{
     background-color: var(--white--primary);
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 10rem;
+    min-height: 100vh;
 }
 
 .contador-titulo{
@@ -485,7 +509,7 @@ a{
 
 .card{
     background-color: var(--blue-primary) !important;
-    max-width: 50rem;
+    max-width: 40rem;
     min-height: 40rem;
     border-radius: 1rem !important ;
     justify-content: center;
@@ -570,7 +594,7 @@ a{
 
     .contenedor-cards{
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .img-contenedor-equipo{
@@ -579,7 +603,7 @@ a{
     }
 
     .contador-titulo{
-        margin: 6rem 0 1rem 0;
+        margin: 8rem 0 2rem 0;
     }
 
     .contador-card{
@@ -640,11 +664,17 @@ a{
     color: var(--white--primary);
     align-content: center;
     text-decoration: none;
+    line-height: 2.5rem;
     
+}
+
+.enlace{
+    transition: 0.4s ease-in-out;
 }
 
 .enlace:hover{
     color: var(--white--primary);
+    border-bottom: 1px solid white;
 }
 
 .contenedor-logo{
@@ -710,7 +740,7 @@ span{
 
 @media (width < 767px){
     .footer{
-        height: 100vh;
+        min-height: 100vh;
         padding: 1rem;
         display: flex;
         flex-direction: column;
