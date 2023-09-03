@@ -125,7 +125,11 @@ a{
     border-radius: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media ( 768px <= width <= 990px){
+    .portada .portada-contenedor{
+        min-height: 100vh;
+    }
+
     .navbar{
         height: 8.2rem;
     }
@@ -141,18 +145,25 @@ a{
         text-align: center;
         background-color: var(--blue-secondary);
         border-radius: 1rem;
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        height: 52rem !important;
     }
 
     .navbar-nav{
-        gap: 1rem;
-        width: 100%;
+        gap: 2rem;
+        width: 80%;
+    }
+
+    .nav-link{
+        font-size: 3rem ;
     }
 
     .titulo__img-portada{
         flex-direction: column;
-        gap: 10rem;
+        gap: 15rem;
         margin: 25rem;
     }
     
@@ -205,6 +216,7 @@ a{
 
     .titulo__img-portada{
         flex-direction: column;
+        gap: 7rem;
     }
     
     .titulo__Portada{
@@ -284,13 +296,13 @@ a{
     font-size: 2rem ;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media ( 768px <= width <= 990px){
     .row{
         gap: 8rem;
     }
 
     .titulo-principal-nosotros{
-        margin: 5rem;
+        margin: 12rem 5rem 0rem 5rem;
         font-size: 8rem;
     }
 
@@ -417,23 +429,40 @@ a{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media ( 768px <= width <= 990px){
     .titulo-principal-servicios{
         font-size: 7rem;
+        margin: 12rem 5rem 2rem 5rem;
     }
 
     .parrafo-servicios-descripcion{
         margin: 2rem;
+        font-size: 3rem;
+    }
+
+    .contenedor-servicios{
+        gap: 2rem;
+    }
+
+    .img-contenedor-servicios{
+        width: 15rem;
+        height: 15rem;
     }
 
     .parrafo-servicios{
         max-width: 55rem;
+        font-size: 3rem;
     }
 
-    .contenedor-servicios{
-        margin-bottom: 5rem;
+    .titulo-servicios{
+        font-size: 4rem;
     }
 
+    .btn{
+        width: 15rem;
+        height: 5rem;
+        font-size: 2rem !important;
+    }
 }
 
 @media (width < 767px){
@@ -549,9 +578,9 @@ a{
     transform: rotate(-20deg);
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media ( 768px <= width <= 990px){
     .section-equipo{
-        margin-bottom: 10rem;
+        margin-bottom: 20rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -563,17 +592,17 @@ a{
         gap: 8rem;
     }
 
-    .contador-titulo{
-        margin: 7rem 0 7rem 0;
-    }
-
     .card{
         min-height: 70rem;
+        max-width: 60rem !important;
     }
 
     .img-contenedor-equipo{
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        width: 20rem;
+    }
+
+    .contador-titulo{
+        margin: 12rem 5rem 3rem 5rem;
     }
 
     .contador-card{
@@ -582,7 +611,7 @@ a{
     }
     
     .card-text{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
@@ -719,23 +748,27 @@ span{
     text-align: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px){
+@media ( 768px <= width <= 990px){
     .footer{
-        min-height: 100vh;
         padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
     }
     
+    .contenedor-logo-footer{
+        width: auto;
+    }
+
     .contenedor-contacto{
         height: auto;
     }
     
     .contenedor-logo{
-        max-width: 25rem;
-        margin: 0rem;
+        margin: 0 0 0 2rem;
     }
+    
+    .linea{
+        width: 90%;
+    }
+
 }    
 
 @media (width < 767px){
