@@ -513,7 +513,7 @@ a{
 
 .contador-titulo{
     color: var(--black);
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .container{
@@ -530,7 +530,7 @@ a{
 .card{
     background-color: var(--blue-primary) !important;
     max-width: 40rem;
-    min-height: 40rem;
+    min-height: 37rem;
     border-radius: 1rem !important ;
     justify-content: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
