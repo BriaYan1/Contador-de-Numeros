@@ -83,6 +83,7 @@ a{
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .portada-contenedor{
@@ -221,12 +222,13 @@ a{
 
 .section-nosotros{
     background-color: var(--white-secondary);
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
 }
 
 .titulo-principal-nosotros{
@@ -234,6 +236,7 @@ a{
     font-weight: bold;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    
 }
 
 .parrafo-servicios-descripcion{
@@ -280,6 +283,10 @@ a{
 }
 
 @media ( 768px <= width <= 990px){
+    .section-nosotros{
+        padding-top: 0;
+    }
+
     .row{
         gap: 8rem;
     }
@@ -303,6 +310,7 @@ a{
     .section-nosotros{
         height: 100%;
         gap: 0;
+        padding-top: 0;
     }
 
     .col-nosotros{
@@ -353,7 +361,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .contenedor-servicios{
@@ -500,7 +508,7 @@ a{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 10rem;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .contador-titulo{
