@@ -364,7 +364,7 @@ a{
 }
 
 .titulo-principal-servicios{
-    margin: 5rem 0rem 1rem 0rem;
+    margin: 7rem 0rem 1rem 0rem;
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
@@ -505,7 +505,7 @@ a{
 
 .contador-titulo{
     color: var(--black);
-    margin: 4rem;
+    margin-bottom: 5rem;
 }
 
 .container{
