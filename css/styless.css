@@ -522,10 +522,6 @@ a{
     align-items: center;
 }
 
-.contenedor-cards{
-    display: flex;
-    gap: 8rem;
-}
 
 .card{
     background-color: var(--blue-primary) !important;
