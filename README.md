@@ -1,4 +1,4 @@
-<h1>Contador de Numeros</h1> 
+<h1>Contador de Números</h1> 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
 </p>
