@@ -11,6 +11,6 @@ Este sitio web permite a la empresa ofrecer sus servicios sobre Asesoría y Gest
   <li>CSS 3</li>
   <li>JAVASCRIPT</li>
   <li>BOOTSTRAP</li>
-  <li>lIBRERIA AOS PARA ANIMACIONES</li>
+  <li>LIBRERIA AOS PARA ANIMACIONES</li>
   <li>API WHTASAPP</li>
 </ul>
