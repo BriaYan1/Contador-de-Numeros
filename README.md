@@ -5,6 +5,9 @@
 <p>:loudspeaker:Sitio Web para la empresa Contador de Números.
 Este sitio web permite a la empresa ofrecer sus servicios sobre Asesoría y Gestión Contable, Mercantil, Laboral y Fiscal. </p>
 
+![image](https://github.com/BriaYan1/Contador-de-Numeros/assets/130705096/571c6490-9436-4af5-9b25-e12c8db64668)
+
+
 <h2>Tecnologías Utilizadas</h2>
 <ul>
   <li>HTML 5</li>
@@ -14,3 +17,4 @@ Este sitio web permite a la empresa ofrecer sus servicios sobre Asesoría y Gest
   <li>LIBRERIA AOS PARA ANIMACIONES</li>
   <li>API WHTASAPP</li>
 </ul>
+
