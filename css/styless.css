@@ -412,6 +412,11 @@ a{
     height: 3rem;
     font-weight: bold !important;
     font-size: 1.2rem !important;
+    background-color: var(--blue-primary) !important;
+}
+
+.btn:hover{
+    background-color: var(--blue-secondary) !important;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1600px){
@@ -681,7 +686,7 @@ a{
     align-content: center;
     text-decoration: none;
     line-height: 2.5rem;
-    
+    padding-left: 0rem;
 }
 
 .enlace{
